@@ -1,11 +1,19 @@
+var buildingData;
+
 $(document).ready(function(){
 
   // jQuery methods go here...
   //	console.log('Hello World!');
-  	$('#click-me').click(function () {
+  	$('#loadData').click(function () {
   		$.get( 'building.json', function( data ) {
-  			$( '#result' ).text( JSON.stringify(data[0].description) );
-  			$( '#buildingImage').attr('src', data[0].imageUrl);
+  			buildingData = data;
+  			$( '#result' ).text( JSON.stringify(buildingData[0].description) );
+  			$( '#buildingImage').attr('src', buildingData[0].imageUrl);
 		});
+  	});
+
+  	$('#nextBuilding').click(function () {
+  		$( '#result' ).text( JSON.stringify(buildingData[1].description) );
+  		$( '#buildingImage').attr('src', buildingData[1].imageUrl);
   	});
 });
