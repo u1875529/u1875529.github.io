@@ -7,13 +7,16 @@ $(document).ready(function(){
   	$('#loadData').click(function () {
   		$.get( 'building.json', function( data ) {
   			buildingData = data;
-  			$( '#result' ).text( JSON.stringify(buildingData[0].description) );
-  			$( '#buildingImage').attr('src', buildingData[0].imageUrl);
+  			updateElement(buildingData[0])
 		});
   	});
 
   	$('#nextBuilding').click(function () {
-  		$( '#result' ).text( JSON.stringify(buildingData[1].description) );
-  		$( '#buildingImage').attr('src', buildingData[1].imageUrl);
+  		updateElement(buildingData[1])
   	});
 });
+
+function updateElement(data) {
+	$( '#result' ).text( JSON.stringify(data.description) );
+  	$( '#buildingImage').attr('src', data.imageUrl);
+}
