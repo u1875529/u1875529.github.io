@@ -4,8 +4,8 @@ $(document).ready(function(){
   //	console.log('Hello World!');
   	$('#click-me').click(function () {
   		$.get( 'building.json', function( data ) {
-  			$( '#result' ).text( JSON.stringify(data, null, 4) );
-  			console.log('DATA: ', data);
+  			$( '#result' ).text( JSON.stringify(data[1]) );
+  			$( '#buildingImage').attr('src', data[0].imageUrl);
 		});
   	});
 });
