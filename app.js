@@ -4,7 +4,7 @@ $(document).ready(function(){
   //	console.log('Hello World!');
   	$('#click-me').click(function () {
   		$.get( 'building.json', function( data ) {
-  			$( '#result' ).text( JSON.stringify(data[1]) );
+  			$( '#result' ).text( JSON.stringify(data[0].description) );
   			$( '#buildingImage').attr('src', data[0].imageUrl);
 		});
   	});
