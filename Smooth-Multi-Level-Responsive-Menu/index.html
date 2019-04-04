@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Smooth Multi-level Responsive Menu</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600" rel="stylesheet">
+      <style>
+      h1 { margin: 150px auto; text-align: center; }
+</style>
+</head>
+<body>
+
+     <nav>
+  <div>
+    <i class="fa fa-bars"></i>
+  </div>
+
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">JavaScript <i class="fa fa-sort-desc"></i></a>
+      <ul>
+        <li><a href="#">jQuery</a></li>
+        <li><a href="#">Vanilla JavaScript</a></li>
+        <li><a href="#">ReactJS</a></li>
+        <li><a href="#">VueJS</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Graphic Design <i class="fa fa-sort-desc"></i></a>
+      <ul>
+        <li><a href="#">Font</a></li>
+        <li><a href="#">PSD</a></li>
+        <li><a href="#">Illustration</a></li>
+        <li><a href="#">Texture</a></li>
+      </ul>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+<h1>Smooth Multi-level Responsive Menu</h1>
+<div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+      <script type="text/javascript">
+
+      $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+      });
+
+      $("ul li").click(function() {
+            $("ul ul").slideUp();
+            $(this).find('ul').slideToggle();
+      });
+
+      $(window).resize(function() {
+            if($(window).width() > 768) {
+                  $("ul").removeAttr('style');
+            }
+      });
+
+      </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

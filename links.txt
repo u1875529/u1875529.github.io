@@ -1,0 +1,40 @@
+https://www.concretepage.com/css-3/less-css-tutorials-examples to create less.
+
+ariel halifax https://fitzwilliam-cp.com/latest-news/investment-properties-west-yorkshire-invest-halifax/
+
+download an image https://www.w3schools.com/tags/att_a_download.asp
+
+
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+nav{
+	width:100%;
+	background: #eee;
+}
+
+ul{
+	width:80%;
+	margin:0 auto;
+	padding:0%;
+}
+
+ul li
+{
+	list-style:none;
+	display:inline-block;
+	padding:20px;
+}
+
+ul li:hover
+{
+	background:#e91e63;
+}
+
+ul li a{
+	color:#fff;
+	text-decoration:none;
+}

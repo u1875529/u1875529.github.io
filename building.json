@@ -1,23 +1,27 @@
 [
+	
 	{
 		"description": "Eureka",
 		"imageUrl": "/images/eureka.jpg"
 	},
+	
 	{
-		"description": "Wainhouse Tower",
-		"imageUrl": "/images/wainhouse-tower.jpg"
+		"description": "Halifax Minster",
+		"imageUrl": "/images/halifax-minster"
+		
 	},
 	{
 		"description": "The Piece Hall",
 		"imageUrl": "/images/the-piece-hall.jpg"
 	},
 	{
-		"description": "Halifax Minster",
-		"imageUrl": "/images/halifax-minster"
-	},
-	{
-		"description": "Victoria Theatre".
+		"description": "Victoria Theatre",
 		"imageUrl": "/images/victoria-theatre"
 	},
+	{
+		"description": "Wainhouse Tower",
+		"imageUrl": "/images/wainhouse-tower.jpg"
+	}
+	
 ]
 
