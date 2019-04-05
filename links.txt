@@ -22,6 +22,9 @@ google font https://fonts.google.com/?selection.family=Berkshire+Swash&category=
 
 resize index image add effects https://codepen.io/renanonline8/pen/Eletm
 
+trying again for index image response https://www.webtoolkitonline.com/javascript-tester.html
+
+piece hall img https://www.google.com/search?q=the+piece+hall&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwipzZvd5rnhAhUzsXEKHXbxB80Q_AUIDigB&biw=2049&bih=864&dpr=0.67#imgrc=S-63Pltw1txwfM:
 body{
 	margin:0;
 	padding:0;
@@ -66,3 +69,17 @@ Define the Color Scheme
 @mainColor: blue;
 @bgColor: 'mainColor';
 background-color:blue;*/
+
+
+
+list names of buildings in unordered list
+<ol>Eureka<button type="button" id="loadData">View</button><div id="result"></div><img id="buildingImage"/>
+				<ol>Bankfield Museum</ol>
+				<ol>Halifax Minster</ol>
+				<ol>Kershaw House</ol>
+				<ol>Nestle Factory</ol>
+				<ol>Shibden Hall</ol>
+				<ol>The Piece Hall</ol>
+				<ol>Victoria Theatre</ol>
+				<ol>Wainhouse Tower</ol>
+		</div>

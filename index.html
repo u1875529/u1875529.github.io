@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="stylesheet" type="text/css" href="css/main.css" />
+			<link rel="stylesheet" type="text/css" href="css/main.less" />
 			<link rel="stylesheet/less" type="text/css" href="css/main.less" />
+			<script src="js/responsiveImg.js"></script>
 			<!--<script src="/css/main.less" type="text/javascript"></script>
 			<!--Use LESS-->
 			<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
@@ -13,6 +14,7 @@
 			<!-- Include function in app-->
 			<script src="/js/ajax.js"></script>
 			<script src="/js/nav-bar.js"></script>
+			<script type="text/javascript" src='js/ajax.js'></script>
 			
 			<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
         integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
@@ -20,21 +22,22 @@
 		
 		</script>
 		
-			<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
 	<title>Buildings in Halifax</title>
+	</head>
 	<body>
 	<div class="topnav" id="myTopnav">
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-		<a href="index.html" class="active">Home</a>
+		<a href="index.html" class="active"	>Home</a>
 		<a href="list-buildings.html">Buildings</a>
 		<a href="buildings-map.html">Map</a>
 		<a href="#">About</a>
 		<a href="#">Contact</a>
 	</div>
-	
-	<img src="images/aerial2-halifax.png" alt="Halifax Town Centre" class="center">	
+	<br>
+	<div id="div1" data-src="images/halifax-town.png" style="background:url(images/halifax-town.png) center no-repeat; width:100%; height:300px;"></div>
+	<!--<img src="images/halifax-town.png" alt="Halifax Town Centre" class="center">-->	
 	<!--<div class="grid">
    <div class="img" style="background-image:
    img src="images/aerial-halifax"></div>
@@ -43,7 +46,7 @@
 </div>-->
 
 
-	
+	</div>
 	</nav>
 	</body>
 	</html>

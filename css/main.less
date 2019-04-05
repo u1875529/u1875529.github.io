@@ -3,14 +3,15 @@
   zoom: 1.0 ;
 }
 
-@media screen and (max-width:320px) {
-  /* CSS for screens that are 320 pixels or less will be put in this section */
+@media screen and (max-width:1024px){
+  img.responsive {width: 200px;}
 }
 
-@media screen and (min-width:320px) and (max-width:640px) {
-  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+@media screen and (min-width:1025px){
+  img.responsive{width: 300px;}
 }
 
+img.responsive{height: auto;}
 
 /* Add a black background color to the top navigation */
 /* Style the links inside the navigation bar */
@@ -97,6 +98,8 @@ a:visited {
 a:hover {
   text-decoration: shadow;
 }
+
+
 
 a:active {
   text-decoration: underline;

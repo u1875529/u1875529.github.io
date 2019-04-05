@@ -2,25 +2,22 @@
 	
 	{
 		"description": "Eureka",
-		"imageUrl": "/images/eureka.jpg"
+		"imageUrl": "/images/eureka.png"
 	},
 	
 	{
-		"description": "Halifax Minster",
-		"imageUrl": "/images/halifax-minster"
+	
+		"description": "Wainhouse Tower",
+		"imageUrl": "/images/wainhouse-tower.jpg"
 		
 	},
 	{
 		"description": "The Piece Hall",
-		"imageUrl": "/images/the-piece-hall.jpg"
+		"imageUrl": "/images/piece-hall.png"
 	},
 	{
-		"description": "Victoria Theatre",
-		"imageUrl": "/images/victoria-theatre"
-	},
-	{
-		"description": "Wainhouse Tower",
-		"imageUrl": "/images/wainhouse-tower.jpg"
+		"description": "Kershaw House",
+		"imageUrl": "/images/kershaw-house"
 	}
 	
 ]
