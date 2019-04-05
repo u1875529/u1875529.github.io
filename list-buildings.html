@@ -1,48 +1,53 @@
 <!DOCTYPE html>
-<!--https://gist.github.com/kenstone/5460000-->
-<html>
+<html lang ="en">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="/style.css" />
-		<!--Use LESS-->
-		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
-		<!--Call the jQuery library from Google-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<!-- Include function in app-->
-		<script src="app.js"></script>
-		<!--include library for android-style nav bar with hamburger-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<!--<script src="jquery.hamburger.js"></script>-->
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	</head>
-	<title>Select a Building</title>
-	<body>
-	<header>
-	</header>
-	
-	<nav>
-		<div>
-			<i class="fa fa-bars"></i>
-			<i class="fa fa-sort-desc"></i>
-			<a href="#">Home</a></li>
-			<a href="list-buildings.html">Buildings </a>
-			<a href="#">History</a>
-			<a href="#">Facts</a>
-		</div>
-
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="list-buildings.html">Buildings <i class="fa fa-sort-desc"></a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-<button type="button" id="loadData">Load data</button>
-		<button type="button" id="nextBuilding">Next-building</button>
-		<div id="result"></div>
-		<img id="buildingImage"/>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<!--<link rel="stylesheet" type="text/css" href="css/main.css" />-->
+			<link rel="stylesheet/less" type="text/css" href="css/main.less" />
+			<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+			<!--<script src="/css/main.less" type="text/javascript"></script>
+			<!--Use LESS-->
+			<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+			<!--Call the jQuery library from Google-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<!-- Include function in app-->
+			<script src="/js/ajax.js"></script>
+			<script src="/js/nav-bar.js"></script>
+			<script src="/js/open-image.js"></script>
+			
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+			integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+			crossorigin="anonymous">
+			</script>
 		
-		</body>
-</html>
+			<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<title>Buildings in Halifax</title>
+	<body>
+	<div class="topnav" id="myTopnav">
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		<a href="index.html">Home</a>
+		<a href="list-buildings.html" class="active">Buildings</a>
+		<a href="buildings-map.html">Map</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</div>
+	<div id="container-fluid">
+		  <!--<img src="images/eureka.jpg">-->
+			<div style="font-family: 'Berkshire Swash', cursive;" >
+			<a href="images/eureka.jpg"><ol>Eureka</ol></a>
+				<ol>Bankfield Museum</ol>
+				<ol>Halifax Minster</ol>
+				<ol>Kershaw House</ol>
+				<ol>Nestle Factory</ol>
+				<ol>Shibden Hall</ol>
+				<ol>The Piece Hall</ol>
+				<ol>Victoria Theatre</ol>
+				<ol>Wainhouse Tower</ol>
+		</div>
+	</div>
+	</body>
+	</html>
+	

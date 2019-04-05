@@ -4,6 +4,23 @@ ariel halifax https://fitzwilliam-cp.com/latest-news/investment-properties-west-
 
 download an image https://www.w3schools.com/tags/att_a_download.asp
 
+used the leaflet library https://github.com/CHT2531/libs-leaflet
+
+w3schools navbar https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+
+responsive image https://www.w3schools.com/howto/howto_css_image_responsive.asp
+
+<!--https://gist.github.com/kenstone/5460000-->
+
+help to write less https://www.sitepoint.com/a-comprehensive-introduction-to-less/
+
+try centre img https://www.lifewire.com/center-images-with-css-3466389
+
+try centre img again https://medium.com/@kimcodeashian/simple-css-solutions-how-to-resize-images-with-different-dimensions-without-cropping-eb744e93246d
+
+google font https://fonts.google.com/?selection.family=Berkshire+Swash&category=Handwriting
+
+resize index image add effects https://codepen.io/renanonline8/pen/Eletm
 
 body{
 	margin:0;
@@ -38,3 +55,14 @@ ul li a{
 	color:#fff;
 	text-decoration:none;
 }
+
+/*Define Color Palette
+@dimGray: #696969;
+@gold: #FFD700;
+@greenYellow: #ADFF2F;
+@deepSkyBlue: #00BFFF;
+
+Define the Color Scheme
+@mainColor: blue;
+@bgColor: 'mainColor';
+background-color:blue;*/
